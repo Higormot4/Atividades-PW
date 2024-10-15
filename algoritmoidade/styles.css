@@ -1,0 +1,74 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #000000, #0066fe67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00a2ff;
+}
+
+/* Campo de Input */
+input {
+    padding: 12px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 350px;
+    font-size: 1.1em;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(192, 12, 12, 0.05);
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Botão */
+button {
+    padding: 12px 20px;
+    font-size: 1.1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Resultado */
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+}
